@@ -1,6 +1,7 @@
 import logo from "../../../assets/logo.jpg";
 import React from "react";
 import '../css/header.css';
+import BEAMTEL from "../../../assets/BEAMTEL.png"
 
 
 const header = () => {
@@ -8,7 +9,7 @@ const header = () => {
 <div className="hero-overlay">
     <header className="hero-header"> {/* New header inside hero */}
         <div className="logo">
-            <img src={logo} alt ="beamtel" className="logo-img" />
+            <img src={BEAMTEL} alt ="beamtel" className="logo-img" />
         </div>
         <nav className="nav">
             <ul>
