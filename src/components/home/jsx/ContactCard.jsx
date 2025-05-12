@@ -14,8 +14,8 @@ const ContactCard= () => {
 
                 <div className="contact-item">
                     <FiMail className="contact-icon" />
-                    <span> Contact@softwaretich.com<br />
-                     sales@softwaretich.ma </span>
+                    <span> Contact@beamtel.com<br />
+                     sales@beamtel.ma </span>
                 </div>
 
                 <div className="contact-item">
