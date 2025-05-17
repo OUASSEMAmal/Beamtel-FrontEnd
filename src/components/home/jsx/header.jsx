@@ -8,9 +8,9 @@ const header = () => {
     return (
 <div className="hero-overlay">
     <header className="hero-header"> {/* New header inside hero */}
-        <div className="logo">
-            <img src={BEAMTEL} alt ="beamtel" className="logo-img" />
-        </div>
+        <a href="/" className="logo">
+            <img src={BEAMTEL} alt="Beamtel" className="logo-img" /> {/* Alt text amélioré */}
+        </a>
         <nav className="nav">
             <ul>
                 <li><i className="bi bi-geo-alt" style={{ color: 'black' }}> </i> <a href="#references"> 10 rue ghandi, Rabat</a></li>

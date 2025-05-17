@@ -1,6 +1,9 @@
 /* Footer.css */
 
 
+.container1 {
+margin-top: 10px;
+}
 
 .footer-div {
     height: 230px;
@@ -30,12 +33,11 @@
     object-fit: contain;
 }
 
-.logo-black {
-    width: 150px;
-    height: 100px;
+.logo-black{
+    width: 100px;
+    height: 80px;
 
-    margin: 20px auto;
-    object-fit: contain;
+    margin: 1px auto 20px;
 }
 
 .terms {

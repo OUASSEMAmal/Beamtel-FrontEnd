@@ -39,15 +39,21 @@ const Partners = () => {
     const referenceItems = [
 
         {
-          logo: BL,
-          description: "Contrat 2 ans:Consultants en Transformation Digitale »\n" +
-              "\n" +
-              "Client : Ministère de la Santé au Maroc",
+            logo: cisco,
+            description: "BEAMTEL est partenaire officiel et Intégrateur de solutions de Cisco"
+        },
+        {
+            logo: ext2,
+            description: "BEAMTEL partenaire officiel"
+        },
+        {
+            logo:junper,
+            description:"Routing & SwitchingProvider Partnership"
         },
 
         {
-            logo: C10,
-            description: "Contrat Cadre : Consultants en Ingénierie / Conseils / R&D Labs"
+            logo: C11,
+            description: "Nous sommes Intégrateur de solutions de connectivités Nokia"
         },
         {
             logo: HP,
@@ -55,15 +61,28 @@ const Partners = () => {
 
         },
         {
+            logo: soo,
+            description: "BEAMTEL intégrateur de solutions Cyber Sécurité de SOPHOS"
+        },
+        {
+            logo: fort,
+            description: "Revendeur, Intégrateur & Partenaire Autorisé"
+        },
+
+
+
+        {
+            logo: C10,
+            description: "Contrat Cadre : Consultants en Ingénierie / Conseils / R&D Labs"
+        },
+
+        {
             logo:aws,
             description:" Programme Startup Innovation Afrique\n" +
                 "\n" +
                 "ID : 358232"
         },
-        {
-            logo:junper,
-            description:"Routing & SwitchingProvider Partnership"
-        },
+
         {
             logo:GS,
             description: "BEAMTEL intégrateur de solutions de connectivité notamment WiFi"
@@ -73,21 +92,17 @@ const Partners = () => {
             logo: ltera,
             description: "BEAMTEL collabore avec ce fournisseur en GPON LAN"
         },
-
         {
-            logo: soo,
-            description: "BEAMTEL intégrateur de solutions Cyber Sécurité de SOPHOS"
-        },
-        {
-            logo: ext2,
-            description: "BEAMTEL partenaire officiel"
+            logo: BL,
+            description: "Contrat 2 ans:Consultants en Transformation Digitale »\n" +
+                "\n" +
+                "Client : Ministère de la Santé au Maroc",
         },
 
 
-        {
-            logo: C11,
-            description: "Nous sommes Intégrateur de solutions de connectivités Nokia"
-        },
+
+
+
         /*{
             logo: at,
             description: "Nous sommes Intégrateur de la 5G privée de Athonet"
@@ -96,14 +111,8 @@ const Partners = () => {
             logo: fire,
             description: "Nous sommes Intégrateur des solutions 5G de Firecell"
         },*/
-        {
-            logo: fort,
-            description: "Revendeur, Intégrateur & Partenaire Autorisé"
-        },
-        {
-            logo: cisco,
-            description: "BEAMTEL est partenaire officiel et Intégrateur de solutions de Cisco"
-        },
+
+
         {
             logo: BOSCH,
             description: "BEAMTEL collabore avec ce fournisseur en GPON LAN"

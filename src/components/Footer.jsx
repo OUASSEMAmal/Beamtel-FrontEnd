@@ -10,14 +10,16 @@ const Footer = ({style }) => {
           <img src={StarsLeft} alt="stars" className="stars" />
 
           <div className="terms text-white text-center">
-            <img src={LogoBlack} alt="logo-black" className="logo-black" />
+            <a href="/">
+              <img src={LogoBlack} alt="logo" className="logo-black" />
+            </a>
 
             <ul className="d-flex justify-content-around align-items-center list-unstyled p-0">
               <li><a href="/privacy"><b>Privacy Policy</b></a></li>
               <li><a href="/terms"><b>Terms of Service</b></a></li>
               <li><a href="/career"><b>Contact us</b></a></li>
             </ul>
-            <div className="container">
+            <div className="container1">
               <p className="text-center small ">© 2025 BEAMTEL. All rights reserved.</p>
             </div>
           </div>
