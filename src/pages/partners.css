@@ -13,10 +13,10 @@
 }
 
 /* Section Titles */
-.section-title, h1 {
+.section-title {
     text-align: center;
     font-size: 2rem;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 40px;
     color: #222;
 }

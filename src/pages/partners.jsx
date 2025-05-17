@@ -6,27 +6,74 @@ import Footer from "../components/Footer";
 
 import at from "../assets/WHO/at.png";
 import C9 from "../assets/WHO/C9.png";
+import MS from "../assets/WHO/MS.png";
+import TS from "../assets/WHO/TS.png";
 import C10 from "../assets/WHO/C10.png";
 import C11 from "../assets/WHO/C11.png";
 import soo from "../assets/WHO/soo.png";
 import fort from "../assets/WHO/fort.png";
 import fire from "../assets/WHO/fire.png";
 import ext2 from "../assets/WHO/ext2.png";
+import BOSCH from "../assets/WHO/BOSCH.png"
 import Sophos from "../assets/part/Sophos-Logo.png";
 import Fortinet from "../assets/part/Fortinet-Logo.svg";
 import crowdstrike from "../assets/part/crowdstrike-logo.png";
 import kas1 from "../assets/WHO/kas1.png";
+import aws from "../assets/WHO/aws.png";
+import cisco from "../assets/WHO/cisco.png";
+import GS from "../assets/WHO/GS.png";
+import ltera from "../assets/WHO/ltera.png";
+import junper from "../assets/WHO/junper.png";
+import BL from "../assets/WHO/BL.png";
+import HP from "../assets/WHO/HP.png";
 import TrendMicro from "../assets/part/TrendMicro-Logo.png";
 
 const Partners = () => {
-    const partners = [
-        { name: 'Sophos', logo: Sophos },
+      const partners = [
+        /*{ name: 'Sophos', logo: Sophos },
         { name: 'Fortinet', logo: Fortinet },
         { name: 'CrowdStrike', logo: crowdstrike },
-        { name: 'TrendMicro', logo: TrendMicro }
+        { name: 'TrendMicro', logo: TrendMicro }*/
     ];
 
     const referenceItems = [
+
+        {
+          logo: BL,
+          description: "Contrat 2 ans:Consultants en Transformation Digitale »\n" +
+              "\n" +
+              "Client : Ministère de la Santé au Maroc",
+        },
+
+        {
+            logo: C10,
+            description: "Contrat Cadre : Consultants en Ingénierie / Conseils / R&D Labs"
+        },
+        {
+            logo: HP,
+            description: " BEAMTEL partenaire de HPE Aruba et Intégrateur de solution 5G Privée."
+
+        },
+        {
+            logo:aws,
+            description:" Programme Startup Innovation Afrique\n" +
+                "\n" +
+                "ID : 358232"
+        },
+        {
+            logo:junper,
+            description:"Routing & SwitchingProvider Partnership"
+        },
+        {
+            logo:GS,
+            description: "BEAMTEL intégrateur de solutions de connectivité notamment WiFi"
+        },
+
+        {
+            logo: ltera,
+            description: "BEAMTEL collabore avec ce fournisseur en GPON LAN"
+        },
+
         {
             logo: soo,
             description: "BEAMTEL intégrateur de solutions Cyber Sécurité de SOPHOS"
@@ -36,32 +83,43 @@ const Partners = () => {
             description: "BEAMTEL partenaire officiel"
         },
 
-        {
-            logo: kas1,
-            description: " BEAMTEL Intégrateur de solutions Cyber Sécurité de Kaspersky"
-        },
 
-
-        {
-            logo: C10,
-            description: "Contrat Cadre : Consultants en Ingénierie / Conseils / M.B.D. Labs"
-        },
         {
             logo: C11,
             description: "Nous sommes Intégrateur de solutions de connectivités Nokia"
         },
-        {
+        /*{
             logo: at,
             description: "Nous sommes Intégrateur de la 5G privée de Athonet"
-        },
-        {
+        },*/
+       /* {
             logo: fire,
             description: "Nous sommes Intégrateur des solutions 5G de Firecell"
-        },
+        },*/
         {
             logo: fort,
             description: "Revendeur, Intégrateur & Partenaire Autorisé"
+        },
+        {
+            logo: cisco,
+            description: "BEAMTEL est partenaire officiel et Intégrateur de solutions de Cisco"
+        },
+        {
+            logo: BOSCH,
+            description: "BEAMTEL collabore avec ce fournisseur en GPON LAN"
+        },
+        {
+            logo: TS,
+            description: "Accès control systems"
+        },
+        {
+            logo:MS,
+            description:"BEAMTEL intégrateur de solutions Cyber Sécurité de Nucleon"
         }
+
+
+
+
     ];
 
     return (
@@ -70,7 +128,7 @@ const Partners = () => {
             <NavBar />
 
             <div className="Partners-container">
-                <h2 className="section-title">Our Partners</h2>
+                <h2 className="section-title">BEAMTEL'S PARTNERS</h2>
 
 
                 <div className="partners-grid">
@@ -78,8 +136,8 @@ const Partners = () => {
                         <div key={index} className="partner-card">
                             <div className="partner-logo">
                                 <img
-                                    src={partner.logo}
                                     alt={partner.name}
+                                    src={partner.logo}
                                     onError={(e) => {
                                         e.target.onerror = null;
                                         e.target.src = '/logos/default.png';
@@ -91,7 +149,7 @@ const Partners = () => {
                     ))}
                 </div>
 
-                <h1>BEAMTEL'S References</h1>
+
                 <div className="Partners-grid1">
                     {referenceItems.map((ref, index) => (
                         <div key={index} className="reference-card">
