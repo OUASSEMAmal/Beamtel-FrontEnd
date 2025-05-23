@@ -16,7 +16,7 @@ import C8 from "../assets/WHO/C8.png";
 import C9 from "../assets/WHO/C9.png";
 import C10 from "../assets/WHO/C10.png";
 import C11 from "../assets/WHO/C11.png";
-
+import agenceurbaine from "../assets/WHO/agenceurbaine.png";
 import "./Whotrustus.css";
 import {text} from "framer-motion/client";
 
@@ -49,10 +49,16 @@ const whotData = [
         img: C7,
         text: "• Technical Audit\n• Wireless capacity and security. \n•  Implémentation du Firewall XGS de Sophos."
     },
+
+    {
+        img:agenceurbaine ,
+        text: "Commande des logiciels IT"
+    },
     {
         img: C8,
-        text: ""
+        text: "Collaboration sur plusieurs projets stratégiques en IT"
     },
+
     {
         img: C9,
         text: "• Contrat 2 ans : 6 Consultants en Transformation digitale.\n•  Client : Ministère de La Santé au Maroc."
@@ -64,7 +70,11 @@ const whotData = [
     {
         img: C11,
         text: "• Partenaire et Sponsor DIAMOND"
-    }
+    },
+    {
+        img: C8,
+        text: "Collaboration sur plusieurs projets stratégiques en IT"
+    },
 
 ];
 
@@ -93,7 +103,7 @@ const Whotrustus = () => {
                         </h2>
 
                         <div className="whot-grid">
-                            {whotData.slice(0, 8).map((whot, index) => (
+                            {whotData.slice(0, 9).map((whot, index) => (
                                 <div key={index} className="whot-card">
                                     <img src={whot.img} alt={`C${index + 1}`} className="whot-logo" />
                                     <p className="whot-text">{whot.text}</p>
@@ -109,7 +119,7 @@ const Whotrustus = () => {
                         </h2>
 
                         <div className="whot-grid">
-                            {whotData.slice(7, 11).map((whot, index) => (
+                            {whotData.slice(9, 13).map((whot, index) => (
                                 <div key={index} className="whot-card">
                                     <img src={whot.img} alt={`C${index + 9}`} className="whot-logo" />
                                     <p className="whot-text">{whot.text}</p>
