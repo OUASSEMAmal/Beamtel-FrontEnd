@@ -31,7 +31,7 @@ const whotData = [
     },
     {
         img: C3,
-        text: " • Deal Fortinet en cours. Implémentation de Fortiweb VM"
+        text: " • Implémentation de la solution de cyber sécurité avancée Fortiweb VM pour le compte de l'agence urbaine de Rabat"
     },
     {
         img: C4,
